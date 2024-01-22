@@ -1,12 +1,15 @@
-p {
-    background-color: rgb(71, 180, 219);
+* {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h2 {
-    color: #00ffff;
+[align="right"] {
+    border: solid black 1px;
 }
 
-.div2 {
+h2.title {
+    font-style: bold;
     font-size: 24px;
+    color: rgb(0, 255, 170);
 }
 
