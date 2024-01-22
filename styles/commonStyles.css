@@ -1,15 +1,20 @@
-* {
-    font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+img {
+    width: 25%;
+    margin: 10% 30% 10%;
+    border: solid green 12px;
+    border-radius: 10%;
 }
 
-[align="right"] {
+p {
+    text-decoration: red overline 12px;
+}
+
+h1 {
+    padding: 80px;
+    margin: 80px;
+    background-color: green;
+    border: 2px ;
+    padding: 80px;
     border: solid black 1px;
+    border-radius: 10px;
 }
-
-h2.title {
-    font-style: bold;
-    font-size: 24px;
-    color: rgb(0, 255, 170);
-}
-
