@@ -1,20 +1,39 @@
-img {
-    width: 25%;
-    margin: 10% 30% 10%;
-    border: solid green 12px;
-    border-radius: 10%;
-}
 
-p {
-    text-decoration: red overline 12px;
+/* just the child
+.main > p {
+    color: blue;
+    border: solid;
+    width: 40%;
 }
+*/
 
-h1 {
-    padding: 80px;
-    margin: 80px;
-    background-color: green;
-    border: 2px ;
-    padding: 80px;
-    border: solid black 1px;
-    border-radius: 10px;
+/* descendant 
+.main p { 
+    color: blue;
+    border: solid;
+    width: 40%;
 }
+*/
+
+/*General Sibling
+.main ~ p {
+    color: blue;
+    border: solid;
+    width: 40%;
+}
+*/
+
+/* adjacent sibling (div+1)
+.main + p {
+    color: blue;
+    border: solid;
+    width: 40%;
+}*/
+
+/* Separator (the comma) 
+.main, .main > p {
+    color: blue;
+    border: solid;
+    width: 40%;
+}
+*/

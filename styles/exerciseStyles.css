@@ -1,0 +1,44 @@
+/* Exercise 1 */
+/*
+.main > * {
+    color: green;
+    border: 1px solid green;
+    width: 50%;
+}
+*/
+
+/* Exercise 2 */
+/*
+.main p {
+    color: purple;
+    border: 1px solid purple;
+    width: 40%;
+}
+*/
+
+/* Exercise 3 */
+/*
+.main ~ * {
+    color: orange;
+    border: 1px solid orange;
+    width: 30%;
+}
+*/
+
+/* Exercise 4 */
+/*
+.main + * {
+    color: red;
+    border: 1px solid red;
+    width: 40%;
+}
+*/
+
+/* Exercise 5 */
+/*
+.main, .main > p {
+    color: blue;
+    border: 1px solid blue;
+    width: 40%;
+}
+*/
